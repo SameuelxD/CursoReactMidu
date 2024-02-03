@@ -24,3 +24,8 @@ npm create vite@latest  , crear proyectos empaquetados con vite , para las bibli
 Creamos un proyecto JavaScript + SWC
 despues instalamos las dependencias usando,  npm install
 Inicializar el proyecto, npm run dev
+
+### Hooks y State en React
+Los Hooks , añade cierta funcionalidad a los componentes de react , o poder ejecutar codigo arbitrario cuando ocurre ciertas cosas en los componentes , o tener algun tipo de funcionalidad para mejorar los componentes , los hooks son como utilidades para mejorar los componentes dando funcionalidad en diferentes partes de renderizacion , 
+
+El State nos va a servir para saber si estamos o no estamos siguiendo a un usuario , por que al usar el State automaticamente se crea un array de dos espacios el primero se usa para el control del hook y el segundo espacio es para guardar una funcion que actualize nuestro estado para su controlador manejar la funcion
